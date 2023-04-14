@@ -1,14 +1,16 @@
 import Data from "../../app/api/dataMock.json";
 import Button from "../button/Button";
 
-const Header = () => {
+const Header = (): JSX.Element => {
   const layers = Data.layers;
 
-  const navigation = layers.map((layer) => (
-    <Button name={layer.name} color={layer.color} />
-  ));
-
-  return navigation;
+  return (
+    <div>
+      {layers.map((layer, i) => (
+        <Button key={i} name={layer.name} color={layer.color} />
+      ))}
+    </div>
+  );
 };
 
 export default Header;
