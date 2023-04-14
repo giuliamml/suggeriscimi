@@ -1,6 +1,7 @@
 {
   "entries": [
     {
+      "slug": "pinoquio",
       "name": "Pinóquio",
       "address": "Praça dos Restauradores 79 80, 1250-188 Lisboa",
       "coordinates": [38.71545608361526, -9.140742925379995],
@@ -8,6 +9,7 @@
       "parentLayer": "seafood"
     },
     {
+      "slug": "dois-arcos",
       "name": "Dois Arcos",
       "address": "R. dos Douradores 163, 1100-422 Lisboa",
       "coordinates": [38.712885961416, -9.137381558588397],
