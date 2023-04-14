@@ -41,7 +41,7 @@ const MapboxMap = () => {
           longitude={entry.coordinates[1]}
           anchor="bottom"
         >
-          <Link href={`/entries/${entry.name}`} as={`/entries/${entry.name}`}>
+          <Link href={`/entries/${entry.slug}`} as={`/entries/${entry.slug}`}>
             <Image src={MarkerSvg} alt={"marker"} width={40} height={40} />
           </Link>
         </Marker>
@@ -49,8 +49,8 @@ const MapboxMap = () => {
 
       {showPopup && selectedMarker !== null ? (
         <Link
-          href={`/entries/${data.entries[selectedMarker].name}`}
-          as={`/entries/${data.entries[selectedMarker].name}`}
+          href={`/entries/${data.entries[selectedMarker].slug}`}
+          as={`/entries/${data.entries[selectedMarker].slug}`}
         >
           <div
             className="popup"

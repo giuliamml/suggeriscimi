@@ -1,10 +1,9 @@
 import data from "../../../api/dataMock.json";
 
 const Entries = ({ params }) => {
-  const entryName = params.slug;
-  const decodedName = decodeURI(entryName);
+  const slug = params.slug;
 
-  const entryData = data.entries.find((entry) => entry.name === decodedName);
+  const entryData = data.entries.find((entry) => entry.slug === slug);
 
   console.log(entryData);
 
