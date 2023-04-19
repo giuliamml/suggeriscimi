@@ -21,14 +21,14 @@
     {
       "name": "Seafood",
       "key": "seafood",
-      "color": "#EEC643",
+      "color": "yellow",
       "description": "This is the seafood layer",
       "icon": ""
     },
     {
       "name": "Traditional Portuguese Cousine",
       "key": "traditionalPortugueseCousine",
-      "color": "#0D21A1",
+      "color": "blue",
       "description": "This is the traditional portuguese cousine layer",
       "icon": ""
     }
