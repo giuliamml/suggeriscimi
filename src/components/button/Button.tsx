@@ -3,7 +3,7 @@ const Button = (props) => {
   return (
     <button
       className="rounded-full p-[0.5rem]"
-      style={{ backgroundColor: color }}
+      style={{ border: `2px solid ${color}`, color: color }}
     >
       {name}
     </button>

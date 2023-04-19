@@ -53,7 +53,6 @@ const MapboxMap = () => {
           as={`/entries/${data.entries[selectedMarker].slug}`}
         >
           <div
-            className="popup"
             style={{
               backgroundColor: "red",
               width: "100%",
