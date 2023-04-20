@@ -15,6 +15,22 @@
       "coordinates": [38.712885961416, -9.137381558588397],
       "description": "Seafood specialties served in a streamlined restaurant that has a laid-back ambiance & a terrace.",
       "parentLayer": "traditionalPortugueseCousine"
+    },
+    {
+      "slug": "wtv",
+      "name": "Whatever",
+      "address": "R. dos Douradores 163, 1100-422 Lisboa",
+      "coordinates": [38.718895961416, -9.137381558588397],
+      "description": "Seafood specialties served in a streamlined restaurant that has a laid-back ambiance & a terrace.",
+      "parentLayer": "rooftopBars"
+    },
+    {
+      "slug": "yet-another-place",
+      "name": "Yet another place",
+      "address": "R. dos Douradores 163, 1100-422 Lisboa",
+      "coordinates": [38.718895961416, -9.140381558588397],
+      "description": "Seafood specialties served in a streamlined restaurant that has a laid-back ambiance & a terrace.",
+      "parentLayer": "others"
     }
   ],
   "layers": [
