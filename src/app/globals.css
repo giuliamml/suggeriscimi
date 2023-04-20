@@ -42,18 +42,19 @@ body {
 }
 
 .my-bg-yellow {
-  color: #EEC643;
-}
-
-.my-border-yellow{
-  border-color: #EEC643;
+  background-color: #EEC643;
 }
 
 .my-bg-blue {
-  color: #0D21A1;
+  background-color: #0D21A1;
 }
 
-.my-border-blue{
-  border-color: #0D21A1;
+.my-bg-green {
+  background-color: #55a630;
 }
+
+.my-bg-orange {
+  background-color: #f18f01;
+}
+
 

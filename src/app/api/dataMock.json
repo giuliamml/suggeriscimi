@@ -23,14 +23,32 @@
       "key": "seafood",
       "color": "yellow",
       "description": "This is the seafood layer",
-      "icon": ""
+      "icon": "",
+      "buttonText": "Seafood"
     },
     {
       "name": "Traditional Portuguese Cousine",
       "key": "traditionalPortugueseCousine",
       "color": "blue",
       "description": "This is the traditional portuguese cousine layer",
-      "icon": ""
+      "icon": "",
+      "buttonText": "Traditional"
+    },
+    {
+      "name": "Rooftops Bars",
+      "key": "rooftopBars",
+      "color": "green",
+      "description": "This is the Rooftoop Bars layer",
+      "icon": "",
+      "buttonText": "Rooftops"
+    },
+    {
+      "name": "Others",
+      "key": "others",
+      "color": "orange",
+      "description": "This is the Others layer",
+      "icon": "",
+      "buttonText": "Others"
     }
   ]
 }

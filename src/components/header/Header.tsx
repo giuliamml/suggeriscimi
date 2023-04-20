@@ -5,9 +5,9 @@ const Header = (): JSX.Element => {
   const layers = Data.layers;
 
   return (
-    <div>
+    <div style={{position: 'absolute', zIndex: '1', paddingInline: '1rem', paddingBlock: '1rem'}}>
       {layers.map((layer, i) => (
-        <Button key={i} name={layer.name} color={layer.color} />
+        <Button key={i} name={layer.buttonText} color={layer.color} />
       ))}
     </div>
   );
