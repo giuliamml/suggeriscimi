@@ -42,19 +42,25 @@ body {
 }
 
 .my-bg-yellow {
-  background-color: #EEC643;
+  background-color: #fad541;
+  border: 1px solid #ffcc00;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.41);
 }
 
 .my-bg-blue {
-  background-color: #0D21A1;
+  background-color: #3399cc;
+  border: 1px solid #006699;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.41);
 }
 
 .my-bg-green {
-  background-color: #55a630;
+  border: 1px solid #669900;
+  background-color: #99cc33;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.41);
 }
 
 .my-bg-orange {
-  background-color: #f18f01;
+  border: 1px solid #ff6600;
+  background-color: #ff9900;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.41);
 }
-
-
